@@ -7,9 +7,13 @@ import org.test.LibGlobal;
 
 public class Login extends LibGlobal  {
 	
+	/** 
+		Login method
+	*/
 	public Login() {
 		PageFactory.initElements(driver, this);
 	}
+	
 	@FindBy(id="twotabsearchtextbox")
 	private WebElement txtSearchBox;
 	
